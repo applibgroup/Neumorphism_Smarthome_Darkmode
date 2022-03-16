@@ -357,13 +357,13 @@
                     <div class="weather_warning_weather">
                         <div class="weather_warning_info">
                             <div class="weather_warning_date bold light_text">
-                                <text>Sat, Dec 20</text>
+                                <text>{{day}}</text>
                             </div>
                             <div class="weather_warning_temperature bold light_text">
-                                <text>18&deg;C</text>
+                                <text>{{temperatureInCelcius}}&deg;C</text>
                             </div>
                             <div class="weather_warning_weather_type medium lighter_text">
-                                <text>Rainy</text>
+                                <text>{{weather}}</text>
                             </div>
                         </div>
                         <div class="weather_warning_clouds">
