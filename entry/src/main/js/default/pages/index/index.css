@@ -19,19 +19,19 @@
 }
 
 .bold{
-    font-family: poppins-bold;
+    font-family: poppins-bold, sans-serif;
 }
 
 .semi_bold{
-    font-family: poppins-semibold;
+    font-family: poppins-semibold, sans-serif;
 }
 
 .medium{
-    font-family: poppins-medium;
+    font-family: poppins-medium, sans-serif;
 }
 
 .regular{
-    font-family: poppins-regular;
+    font-family: poppins-regular, sans-serif;
 }
 
 .dark_text{
@@ -693,7 +693,7 @@
     }
 }
 
-@media (device-type: wearable){
+@media only screen and (max-width: 768px){
     .main{
         display: none;
     }
