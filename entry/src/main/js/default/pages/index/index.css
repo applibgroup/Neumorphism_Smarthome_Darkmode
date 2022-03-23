@@ -519,13 +519,6 @@
     margin:10px;
 }
 
-.carousel_swiper{
-    indicator-color: #ffffff;
-    indicator-selected-color: #0098FD;
-    indicator-size: 5px;
-    indicator-bottom: 10px;
-}
-
 .carousel_swiper image{
     border-radius: 10px;
 }
@@ -677,7 +670,7 @@
     border-radius: 100px;
 }
 
-@media (device-type: phone){
+@media only screen and (max-width: 768px){
     .main_control_header_title{
         width: 100px;
     }
@@ -693,7 +686,7 @@
     }
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 400px){
     .main{
         display: none;
     }
