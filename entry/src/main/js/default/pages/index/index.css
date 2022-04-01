@@ -19,19 +19,19 @@
 }
 
 .bold{
-    font-family: poppins-bold;
+    font-family: poppins-bold, sans-serif;
 }
 
 .semi_bold{
-    font-family: poppins-semibold;
+    font-family: poppins-semibold, sans-serif;
 }
 
 .medium{
-    font-family: poppins-medium;
+    font-family: poppins-medium, sans-serif;
 }
 
 .regular{
-    font-family: poppins-regular;
+    font-family: poppins-regular, sans-serif;
 }
 
 .dark_text{
@@ -519,13 +519,6 @@
     margin:10px;
 }
 
-.carousel_swiper{
-    indicator-color: #ffffff;
-    indicator-selected-color: #0098FD;
-    indicator-size: 5px;
-    indicator-bottom: 10px;
-}
-
 .carousel_swiper image{
     border-radius: 10px;
 }
@@ -660,7 +653,7 @@
 }
 
 .weather_warning_footer{
-    padding: 15px;
+    margin-top:10px;
     font-size: 10px;
     display: flex;
     flex-direction: column;
@@ -677,7 +670,7 @@
     border-radius: 100px;
 }
 
-@media (device-type: phone){
+@media only screen and (max-width: 768px){
     .main_control_header_title{
         width: 100px;
     }
@@ -693,7 +686,7 @@
     }
 }
 
-@media (device-type: wearable){
+@media only screen and (max-width: 400px){
     .main{
         display: none;
     }
